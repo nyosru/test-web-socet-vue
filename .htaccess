@@ -1,0 +1,12 @@
+# # <IfModule mod_headers.c>
+#   Header set Access-Control-Allow-Origin "*"
+# # </IfModule>
+
+# # Header set Access-Control-Allow-Origin "*"
+# # Header set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
+# # Header set Access-Control-Max-Age "1000"
+# # Header set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
